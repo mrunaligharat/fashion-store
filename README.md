@@ -13,6 +13,7 @@ Currently, two official plugins are available:
 [footer section] https://github.com/mrunaligharat/fashion-store/blob/6f24c64a1a42486adeb2a3e8a56d859846054974/Footer%20section.jpeg
 [navbar section] https://github.com/mrunaligharat/fashion-store/blob/c066a0e089a6345f649d185d8695dc821cb4620a/Navbar%20section.jpeg
 [Testimonials] https://github.com/mrunaligharat/fashion-store/blob/03c90524ed515bc6ddea9f359671939d686b20e7/Testimonials%20section.jpeg
+
 [productscards] https://github.com/mrunaligharat/fashion-store/blob/428b14b26b0bd9f2c0527ecafd081d18111291d6/ProductCards%20section.jpeg
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
