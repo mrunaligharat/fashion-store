@@ -7,6 +7,7 @@ Currently, two official plugins are available:
 [hero section] https://github.com/mrunaligharat/fashion-store/blob/801ecbb18d84da931539c086d07da048ef6eb927/Hero%20section.jpeg
 [categories section] https://github.com/mrunaligharat/fashion-store/blob/5d81f2473570b59c44ef4aa86da94b436948687a/Categories%20section.jpeg
 [footer section] https://github.com/mrunaligharat/fashion-store/blob/6f24c64a1a42486adeb2a3e8a56d859846054974/Footer%20section.jpeg
+[navbar section] https://github.com/mrunaligharat/fashion-store/blob/c066a0e089a6345f649d185d8695dc821cb4620a/Navbar%20section.jpeg
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
