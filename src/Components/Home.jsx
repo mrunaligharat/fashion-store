@@ -1,5 +1,10 @@
+import {AddProduct} from "./AddProduct";
+import { ProductCards } from "./ProductCards";
 export function Home() {
-  return (
+ return (
+  <>
+    <AddProduct />
+
     <section style={styles.home}>
       <h2 style={styles.heading}>Why Shop With Us?</h2>
 
@@ -20,7 +25,10 @@ export function Home() {
         </div>
       </div>
     </section>
-  );
+
+    <ProductCards />
+  </>
+);
 }
 
 const styles = {

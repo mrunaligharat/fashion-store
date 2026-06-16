@@ -1,4 +1,7 @@
+import { useState, useEffect } from "react";
+import { supabase } from "../supabase";
 export function ProductCards() {
+  const [dbProducts, setDbProducts] = useState([]);
   const products = [
     {
       id: 1,
@@ -34,6 +37,22 @@ export function ProductCards() {
     },
   ];
 
+  useEffect(() => {
+  fetchProducts();
+}, []);
+
+async function fetchProducts() {
+  const { data, error } = await supabase
+    .from("products")
+    .select("*");
+
+  if (error) {
+    console.log(error);
+  } else {
+    setDbProducts(data);
+  }
+}
+
   return (
     <section style={styles.section}>
       <h2 style={styles.heading}>Trending Products</h2>
@@ -67,6 +86,43 @@ export function ProductCards() {
             </div>
           </div>
         ))}
+        {dbProducts.map((product) => (
+  <div key={product.id} style={styles.card}>
+    <img
+      src={product.image}
+      alt={product.name}
+      style={styles.image}
+    />
+
+    <div style={styles.content}>
+      <h3 style={styles.name}>
+        {product.name}
+      </h3>
+
+      <div style={styles.details}>
+        <span style={styles.price}>
+          ₹{product.price}
+        </span>
+      </div>
+
+      <div style={styles.buttons}>
+        <a
+          href={product.link}
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            textDecoration: "none",
+            width: "100%"
+          }}
+        >
+          <button style={styles.buyBtn}>
+            View Product
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+))}
       </div>
     </section>
   );
