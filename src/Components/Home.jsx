@@ -1,4 +1,4 @@
-import {AddProduct} from "./AddProduct";
+import {Addproduct} from "./Addproduct";
 import { ProductCards } from "./ProductCards";
 export function Home() {
  return (
