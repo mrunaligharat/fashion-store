@@ -6,7 +6,7 @@ import {ProductCards} from './Components/ProductCards.jsx'
 import {Footer} from './Components/Footer.jsx'
 import {Testimonials} from './Components/Testimonials.jsx'
 import {Categories} from './Components/Categories.jsx'
-import {AddProduct} from './Components/AddProduct.jsx'
+import {Addproduct} from './Components/Addproduct.jsx'
 import {Routes,Route} from 'react-router-dom'
 
 function App() {
