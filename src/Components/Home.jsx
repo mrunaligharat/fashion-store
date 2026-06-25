@@ -3,7 +3,7 @@ import { ProductCards } from "./ProductCards";
 export function Home() {
  return (
   <>
-    <AddProduct />
+    <Addproduct />
 
     <section style={styles.home}>
       <h2 style={styles.heading}>Why Shop With Us?</h2>
